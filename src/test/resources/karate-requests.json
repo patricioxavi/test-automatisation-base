@@ -1,0 +1,46 @@
+{
+  "getCharacterById": {
+    "id": "#number",
+    "name": "#string",
+    "alterego": "#string",
+    "description": "#string",
+    "powers": "#[]"
+  },
+  "createCharacter": {
+    "name": "Thor",
+    "alterego": "Dios del Trueno",
+    "description": "Descripción del nuevo personaje",
+    "powers": ["Salto", "Salto alto"]
+  },
+  "createCharacterDuplicateName": {
+    "name": "Nuevo Personaje",
+    "alterego": "Alter Ego",
+    "description": "Descripción del nuevo personaje",
+    "powers": ["Poder1", "Poder2"]
+  },
+  "createCharacterMissingData": {
+    "name": "",
+    "alterego": "Test",
+    "description": "Test",
+    "powers": ["Poder 1"]
+  },
+  "updateCharacter": {
+    "name": "UpdatedName",
+    "alterego": "UpdatedAlterEgo",
+    "description": "Updated description",
+    "powers": ["UpdatedPower1", "UpdatedPower2"]
+  },
+  "updateCharacterResponse": {
+    "id": "#number",
+    "name": "UpdatedName",
+    "alterego": "UpdatedAlterEgo",
+    "description": "Updated description",
+    "powers": ["UpdatedPower1", "UpdatedPower2"]
+  },
+  "updateCharacterNonExistent": {
+    "name": "NonExistentName",
+    "alterego": "NonExistentAlterEgo",
+    "description": "NonExistent description",
+    "powers": ["NonExistentPower1", "NonExistentPower2"]
+  }
+}
